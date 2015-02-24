@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: سلام جهان!
+tagline: تگ لاین پشتیبانی
 ---
 {% include JB/setup %}
 
@@ -10,8 +10,8 @@ Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.ht
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
 ## Update Author Attributes
+دقت  داشته باشید که در فایل `_config.yml` مشخصات خود را وارد کنید.
 
-In `_config.yml` remember to specify your own data:
     
     title : My Blog =)
     
