@@ -8,14 +8,13 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : ترشحـــــــات ذهنـــــــــــــــــی
-tagline: Site Tagline
+title : ترشحات ذهنــــی اپسیلون 
+tagline: روزنوشت
 author :
-  name : Reza Esfandani
-  email : esfandani@gmail.com
+  name : غلامرضا
+  email : esfandani
   github : esfandani
   facebook : esfandani
-  linkedin : esfandani
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -27,6 +26,10 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://username.github.io
+
+
+gems:
+  - jalalidate
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -129,3 +132,4 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+

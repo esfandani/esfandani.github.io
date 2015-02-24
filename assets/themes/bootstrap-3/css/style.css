@@ -14,20 +14,89 @@
   float: right; }*/
 
 /* Jekyll Bootstrap Colors */
+@font-face {
+  font-family: 'Koodak';
+  src: url('../fonts/Koodak.otf?#'),  /* IE6–8 */
+       url('../fonts/Koodak.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'RoyaBold';
+  src: url('../fonts/RoyaBold.otf?#'),  /* IE6–8 */
+       url('../fonts/RoyaBold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('../fonts/Yekan.otf?#'),  /* IE6–8 */
+       url('../fonts/Yekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'Mehr';
+  src: url('../fonts/Mehr.otf?#'),  /* IE6–8 */
+       url('../fonts/Mehr.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'Zar';
+  src: url('../fonts/Zar.otf?#'),  /* IE6–8 */
+       url('../fonts/Zar.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'Mitra';
+  src: url('../fonts/Mitra.otf?#'),  /* IE6–8 */
+       url('../fonts/Mitra.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'Roya';
+  src: url('../fonts/Roya.otf?#'),  /* IE6–8 */
+       url('../fonts/Roya.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+
+
+body{
+	direction:rtl;
+	/*font-family: "Droid Arabic Naskh",Tahoma,"Open Sans",Helvetica,Arial,sans-serif;*/
+	font-family: Roya,tahoma !important;
+	font-size: 14pt!important;
+
+}
 h1, h2, h3, h4 {
   color: #f22430;
 }
-#footer {
-  background-color: #fdcd60;
+.page-header>h1{
+	font-family: Mehr, Yekan, Koodak,tahoma, msprint;
+	font-size:18px;
 }
 
+#footer {
+  background-color: #101010;
+  color:white;
+}
 
+.navbar-header{
+	float:right;
+	margin-left:50px;
+	padding-right:20px;
+}
+.navbar-inverse .navbar-brand{
+	color: rgb(91, 221, 93);
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #CEC6F2;
+}
 
 /* posts index */
 .post > h3.title {
   position: relative;
   padding-top: 10px; }
-
+pre,code{
+	direction:ltr;
+}
 .post > h3.title span.date {
   position: absolute;
   right: 0;
@@ -47,15 +116,14 @@ h1, h2, h3, h4 {
   list-style: none;
   margin: 0;
   overflow: hidden; }
-
+.tag_box.inline li{
+	float:right;
+}
 .tag_box li {
   line-height: 28px; }
 
 .tag_box li i {
   opacity: 0.9; }
-
-.tag_box.inline li {
-  float: left; }
 
 .tag_box a {
   padding: 3px 6px;
