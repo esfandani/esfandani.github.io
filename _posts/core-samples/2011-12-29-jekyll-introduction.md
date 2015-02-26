@@ -1,6 +1,7 @@
 ---
 layout: post
 category : instruction
+farsi: آموزش
 tagline: "Supporting tagline"
 tags : [java,c++]
 ---

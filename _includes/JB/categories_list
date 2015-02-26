@@ -29,7 +29,13 @@ Usage:
   {% else %}
     {% for category in categories_list %} 
     	<li><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
-    		{{ category[0] | join: "/" }} <span>{{ category[1].size }}</span>
+	        {% if category[1][0].farsi == null %}
+ 	        	{{ category[0] | join: "/" }} <span>{{ category[1].size }}</span>		
+                {% else %}
+ 	        	{{ category[1][0].farsi | join: "/" }} <span>{{ category[1].size }}</span>
+                {% endif %}	
+		
+    		
     	</a></li>
     {% endfor %}
   {% endif %}
