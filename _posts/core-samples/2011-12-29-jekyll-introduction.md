@@ -1,8 +1,9 @@
 ---
 layout: post
 category : instruction
+farsi: دستور العمل ها
 tagline: "Supporting tagline"
-tags : [java,c++]
+tags : [جاوا,c++]
 ---
 {% include JB/setup %}
 
