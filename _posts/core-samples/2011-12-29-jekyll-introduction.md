@@ -1,7 +1,7 @@
 ---
 layout: post
 category : instruction
-farsi: دستور العمل ها
+farsi: آموزش
 tagline: "Supporting tagline"
 tags : [جاوا,c++]
 ---
