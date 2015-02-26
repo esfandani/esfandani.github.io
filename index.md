@@ -1,7 +1,7 @@
 ---
 layout: page
-title: سلام جهان!
-tagline: Supporting tagline
+title: ترشحات ذهنی اپسیلون
+tagline: روزمرگی
 ---
 {% include JB/setup %}
 

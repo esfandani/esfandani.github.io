@@ -1,8 +1,9 @@
 ---
 layout: post
 category : instruction
+title : آموزش جکیل
 farsi: آموزش
-tagline: "Supporting tagline"
+tagline: جکیل چگونه کار می کند.
 tags : [جاوا,c++]
 ---
 {% include JB/setup %}
