@@ -13,7 +13,15 @@ group: navigation
 
 
 {% for category in site.categories %} 
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+
+	{% if category[1][0].farsi == null %}
+		 <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>	
+	{% else %}
+		 <h2 id="{{ category[0] }}-ref">{{ category[1][0].farsi | join: "/" }}</h2>
+	{% endif %}	
+		
+
+ 
   <ul>
     {% assign pages_list = category[1] %} 
 	{% include JB/pages_list %}

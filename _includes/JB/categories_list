@@ -34,7 +34,7 @@ Usage:
  	        	{{ category[0] | join: "/" }} <span>{{ category[1].size }}</span>		
                 {% else %}
  	        	{{ category[1][0].farsi | join: "/" }} <span>{{ category[1].size }}</span>
-                {% endif %}	
+			{% endif %}	
 		
     		
     	</a></li>
