@@ -67,8 +67,14 @@ h1, h2, h3, h4 {
 
 .nav>li>a{
 	font-family: Yekan, Mehr,  Koodak,tahoma, msprint;
-	font-size:15px;
+	font-size:17px;
+	color:#CEC6F2;
 }
+.nav>li>a:hover{
+	background-color:transparent;
+	color:white;
+}
+
 #footer {
   background-color: #101010;
   color:white;
@@ -81,6 +87,7 @@ h1, h2, h3, h4 {
 }
 .navbar-inverse .navbar-brand{
 	color: rgb(91, 221, 93);
+	font-size:25px;
 }
 .navbar-inverse .navbar-nav>li>a{
 	color: #CEC6F2;
@@ -145,3 +152,15 @@ pre,code{
 	font-family: koodak, tahoma;
 	font-size:12px;
 }
+.pagination{
+	width:100%;
+}
+.glyphicon{
+	font-size:25px;
+}
+.social>ul>a>span{
+	font-size:12px;
+	font-color:#CEC6F2;
+	background-color:red;
+}
+

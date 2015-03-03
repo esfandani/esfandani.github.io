@@ -1,0 +1,38 @@
+---
+layout: page
+title : پست ها
+header : Posts
+group: navigation
+---
+
+
+<ul>
+  {% for post in paginator.posts %}
+    <li>
+	
+      <a href="{{ post.url }}">{{ post.title }}</a>  &raquo; <span>{{ post.date | date: "%e %b %Y" }}</span>
+      {{ post.excerpt }}
+    </li>
+
+  {% endfor %}
+</ul>
+
+
+<div class="pagination container text-center">
+<center>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">بعدی</a>
+  {% else %}
+    <span class="next ">بعدی</span>
+  {% endif %}
+--
+ <span class="page_number ">صفحه  {{ paginator.page }} از {{ paginator.total_pages }}</span>
+--
+
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">قبلی</a>
+  {% else %}
+    <span class="previous">قبلی</span>
+  {% endif %}
+</center>
+</div>
