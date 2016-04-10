@@ -11,7 +11,7 @@ permalink:        /blog/:year/:month/:day/:title
 
 # Setup
 title:            'Reza Personal Website'
-tagline:          ''
+tagline:          'A place to share my expericnces'
 description:      'A place to share my expericnces'
 url:              ''
 baseurl:          ''
@@ -56,7 +56,7 @@ gahandler: ''
 footersvg: 'true'
 
 # Disqus
-disqushandler: 'testingblogo'
+disqushandler: 'esfandanicom'
 
 # Blog Configurations
 paginate: 10 # Posts per page on the blog index
