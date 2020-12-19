@@ -10,7 +10,7 @@ gems: [jekyll-paginate]
 permalink:        /blog/:year/:month/:day/:title
 
 # Setup
-title:            'Reza Personal Website'
+title:            'Home'
 tagline:          'A place to share my expericnces'
 description:      'A place to share my expericnces'
 url:              ''
